@@ -195,6 +195,7 @@ func init() {
 	mustRegister(&LiteRegNetParams)
 	mustRegister(&VertcoinTestNetParams)
 	mustRegister(&VertcoinParams)
+	mustRegister(&ViacoinParams)
 }
 
 // mustRegister performs the same function as Register except it panics if there

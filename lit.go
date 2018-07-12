@@ -21,6 +21,7 @@ type config struct { // define a struct for usage with go-flags
 	Litereghost string `long:"litereg" description:"Connect to litecoin regtest."`
 	Tvtchost    string `long:"tvtc" description:"Connect to Vertcoin test node."`
 	Vtchost     string `long:"vtc" description:"Connect to Vertcoin."`
+	Viahost     string `long:"via" description:"Connect to Viacoin."`
 	LitHomeDir  string `long:"dir" description:"Specify Home Directory of lit as an absolute path."`
 	TrackerURL  string `long:"tracker" description:"LN address tracker URL http|https://host:port"`
 	ConfigFile  string
